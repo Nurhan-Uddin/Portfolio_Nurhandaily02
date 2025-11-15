@@ -161,7 +161,7 @@
     <!--======================== SERVICES SECTION ENDS  ============================== -->
 
     <!--======================== RESUME SECTION START  ============================== -->
-    <section class="resume active">
+    <section class="resume ">
       <div class="resume-container">
         <div class="resume-box">
           <h2>Why Hire Me?</h2>
@@ -220,7 +220,100 @@
     </section>
     <!--======================== RESUME SECTION ENDS  ============================== -->
 
+    <!-- ======================== CONTACT SECTION START ============================  -->
+    <section class="contact active">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <p class="desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+            repellendus voluptatum magnam ratione itaque animi, explicabo quas
+            quod non doloribus.
+          </p>
+          <div class="contact-detail">
+            <i class='bx  bx-phone'></i> 
+            <div class="detail">
+              <p>Phone</p>
+              <p>(+880) 1866712031</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class='bx  bx-envelope-open bx-rotate-90 bx-flip-horizontal'    ></i>  
+            <div class="detail">
+              <p>Email</p>
+              <p>nurhandaily@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+          <i class='bx  bx-street-view'></i> 
+            <div class="detail">
+              <p>Address</p>
+              <p>Hathazari , Chattogram , Bangladesh</p>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="contact-box">
+         <form action="">
+          <h2 class="heading"> Contact <span>Me!</span></h2>
+          <div class="field-box">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Phone" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea name="message" id="" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+         </form>
+        </div>
+      </div>
+    </section>
+    <!-- ======================== CONTACT SECTION ENDS  ============================  -->
+
+
+    <div class="cursor">
+      <div class="click-animation">
+        <div class="shap circle big"></div>
+        <div class="shap circle small"></div>
+        <div class="shap triangle blue"></div>
+        <div class="shap triangle yellow"></div>
+        <div class="shap disc"></div>
+      </div>
+    </div>
+    
+
     <!-- custom js -->
     <script src="./assets/sript.js"></script>
+
+    <script>
+      const cursorAnimation = document.querySelector(".cursor");
+      const cursors = document.querySelectorAll(".cursor");
+
+      document.addEventListener("click", (e) => {
+        let x = e.clientX;
+        let y = e.clientY; 
+        
+        cursorAnimation.style.top = y + "px";
+        cursorAnimation.style.left = x + "px";
+
+        cursors.forEach((cursor) => {
+          cursor.classList.add("active");
+
+          function removeCursorActive(){
+            cursor.classList.remove("active");
+          }
+           setTimeout(removeCursorActive , 1000);
+        });
+
+        let cursorClone = cursorAnimation.cloneNode(true);
+        document.querySelector("body").appendChild(cursorClone);
+
+         setTimeout(() =>{
+          cursorClone.remove();
+         } , 1000) 
+
+      });
+    </script>
   </body>
 </html>
