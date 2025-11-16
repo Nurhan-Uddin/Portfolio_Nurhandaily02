@@ -16,3 +16,4 @@ resumeDetails.forEach(detail => {
 resumeDetails[idx].classList.add('active');
 });
 });
+

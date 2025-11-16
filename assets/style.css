@@ -850,3 +850,38 @@ button:hover ~ .cursor-outline {
 
 
 /* =================== PORTFOIO CSS END   ========================== */
+
+/* =================== TESTIMONIAL SECTION STYLING====================*/
+.testimonial-section {
+    padding: 50px 0 100px;
+    background: var(--bg-color);
+}
+
+.testimonial-section .testimonial {
+    display: flex;
+    padding: 35px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-section .testimonial .user-image {
+    width: 180px;
+    height: 210px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: var(--border-redius-circle);
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+
+
+.testimonial-section .testimonial .name {
+    margin-bottom: 16px;
+    font-size: var(--font-size-m);
+
+}
+
+.testimonial-section .testimonial .feedback {
+
+}
