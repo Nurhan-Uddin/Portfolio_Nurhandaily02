@@ -490,11 +490,6 @@ transition: .5s;
     background-position: bottom;
 }
 
-/* .resume button.resume-btn:hover{
- background-color: var(--main-color); 
- border-color: var(--main-color); 
- color: var(--bg-color);  
-} */
 
 .resume-detail{
     display: none;
@@ -1133,10 +1128,7 @@ button:hover ~ .cursor-outline {
   border-color: #00e676;
 }
 
-<<<<<<< HEAD
 /* ================== CURSON CIRCLE ANIMATE E ===================== */ 
-
-
 
 /* =====================BREAKPOINT START ========================== */
 @media screen and (max-width:1200px){
@@ -1271,14 +1263,7 @@ button:hover ~ .cursor-outline {
 
 
 
-/* =====================BREAKPOINT ENDS  =======================
-=======
-/* ================== CURSON CIRCLE ANIMATE E ===================== */
-
-/* =================== PORTFOIO CSS START ========================== */
-
-
-/* =================== PORTFOIO CSS END   ========================== */
+/* =====================BREAKPOINT ENDS  =======================*/
 
 /* =================== TESTIMONIAL SECTION STYLING START ====================*/
 .testimoanials-section{
@@ -1359,4 +1344,4 @@ button:hover ~ .cursor-outline {
 
 
 /* =================== TESTIMONIAL SECTION STYLING ENDS  ====================*/
->>>>>>> a5364a9d87c6ccc2f02f7873c9ce6e895f329cad
+
