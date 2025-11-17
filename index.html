@@ -21,6 +21,11 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- SWIPER JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
@@ -37,19 +42,20 @@
         <a href="#">Services</a>
         <a href="#">Resume</a>
         <a href="#">Portfolio</a>
+        <a href="#">Testimonial</a>
         <a href="#">Contact</a>
       </nav>
     </header>
 
     <!-- BARS BOX START -->
-     <div class="bars-box active">
-      <div class="bar" style="--i:6;"></div>
-      <div class="bar" style="--i:5;"></div>
-      <div class="bar" style="--i:4;"></div>
-      <div class="bar" style="--i:3;"></div>
-      <div class="bar" style="--i:2;"></div>
-      <div class="bar" style="--i:1;"></div>
-     </div>
+    <div class="bars-box active">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
     <!-- BARS BOX ENDS  -->
 
     <!--========================= HOME SECTION START ==========================-->
@@ -58,10 +64,16 @@
         <h1>Nurhan uddin</h1>
         <h2>
           i'm a
-          <span style="--i: 4" data-text="Coder">Coder</span>
-          <span style="--i: 3" data-text="Youtuber">Youtuber</span>
-          <span style="--i: 2" data-text="Blogger">Blogger</span>
-          <span style="--i: 1" data-text="Web-developer">Web-developer</span>
+          <span style="--i: 4" data-text="Full-stack Web Developer"
+            >Full-stack Web Developer</span
+          >
+          <span style="--i: 3" data-text="Every Time Learner"
+            >Every Time Learner</span
+          >
+          <span style="--i: 2" data-text="Problem solver">Problem solver</span>
+          <span style="--i: 1" data-text="Uniqe Idea Generator"
+            >Uniqe Idea Generator</span
+          >
         </h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
@@ -112,7 +124,7 @@
             <i class="bx bxs-paint"></i>
             <a href="#"><i class="bx bx-left-arrow-alt"></i></a>
           </div>
-          <h3>UI/US Desing</h3>
+          <h3>UI/UX Desing</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint,
             facilis amet architecto officia suscipit harum nulla aperiam sit
@@ -161,10 +173,10 @@
         </div>
         <div class="services-box">
           <div class="icon">
-            <i class="bx bx-camera"></i>
+            <i class="bx bx-network-chart"></i>
             <a href="#"><i class="bx bx-left-arrow-alt"></i></a>
           </div>
-          <h3>Photography</h3>
+          <h3>Digital Marketing</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint,
             facilis amet architecto officia suscipit harum nulla aperiam sit
@@ -355,7 +367,7 @@
                 <i class="bx bxl-vuejs"></i>
                 <span>vue.js</span>
               </div>
-              
+
               <div class="resume-item">
                 <i class="bx bxl-react"></i>
                 <span>React.js</span>
@@ -364,7 +376,7 @@
                 <i class="bx bxl-nodejs"></i>
                 <span>Node.js</span>
               </div>
-              
+
               <div class="resume-item">
                 <i class="bx bxl-tailwind-css"></i>
                 <span>Tailwind CSS</span>
@@ -452,129 +464,265 @@
           <div class="portfolio-detail active">
             <p class="numb">01</p>
             <h3>Frontend Project</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            dignissimos ex sequi unde quidem necessitatibus.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              dignissimos ex sequi unde quidem necessitatibus.
+            </p>
             <div class="tect">
-              <P>HTML5 , CSS , JavaScript</P>
+              <p>HTML5 , CSS , JavaScript</p>
             </div>
 
             <div class="live-github">
-              <a href="#"><i class='bx bx-arrow-back'></i> <span>Live Project</span></a>
-              <a href="#"><i class='bx bxl-github' ></i> <span>Github Repository</span></a>
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
             </div>
           </div>
 
           <div class="portfolio-detail">
             <p class="numb">02</p>
             <h3>Frontend Project</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            dignissimos ex sequi unde quidem necessitatibus.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              dignissimos ex sequi unde quidem necessitatibus.
+            </p>
             <div class="tect">
-              <P>HTML5 , CSS , JavaScript</P>
+              <p>HTML5 , CSS , JavaScript</p>
             </div>
 
             <div class="live-github">
-              <a href="#"><i class='bx bx-arrow-back'></i> <span>Live Project</span></a>
-              <a href="#"><i class='bx bxl-github' ></i> <span>Github Repository</span></a>
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
             </div>
           </div>
 
           <div class="portfolio-detail">
             <p class="numb">03</p>
             <h3>Frontend Project</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            dignissimos ex sequi unde quidem necessitatibus.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              dignissimos ex sequi unde quidem necessitatibus.
+            </p>
             <div class="tect">
-              <P>HTML5 , CSS , JavaScript</P>
+              <p>HTML5 , CSS , JavaScript</p>
             </div>
 
             <div class="live-github">
-              <a href="#"><i class='bx bx-arrow-back'></i> <span>Live Project</span></a>
-              <a href="#"><i class='bx bxl-github' ></i> <span>Github Repository</span></a>
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
             </div>
           </div>
 
           <div class="portfolio-detail">
             <p class="numb">04</p>
             <h3>Frontend Project</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            dignissimos ex sequi unde quidem necessitatibus.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              dignissimos ex sequi unde quidem necessitatibus.
+            </p>
             <div class="tect">
-              <P>HTML5 , CSS , JavaScript</P>
+              <p>HTML5 , CSS , JavaScript</p>
             </div>
 
             <div class="live-github">
-              <a href="#"><i class='bx bx-arrow-back'></i> <span>Live Project</span></a>
-              <a href="#"><i class='bx bxl-github' ></i> <span>Github Repository</span></a>
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
             </div>
           </div>
 
           <div class="portfolio-detail">
             <p class="numb">05</p>
             <h3>Frontend Project</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            dignissimos ex sequi unde quidem necessitatibus.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              dignissimos ex sequi unde quidem necessitatibus.
+            </p>
             <div class="tect">
-              <P>HTML5 , CSS , JavaScript</P>
+              <p>HTML5 , CSS , JavaScript</p>
             </div>
 
             <div class="live-github">
-              <a href="#"><i class='bx bx-arrow-back'></i> <span>Live Project</span></a>
-              <a href="#"><i class='bx bxl-github' ></i> <span>Github Repository</span></a>
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
             </div>
           </div>
 
           <div class="portfolio-detail">
             <p class="numb">06</p>
             <h3>Frontend Project</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            dignissimos ex sequi unde quidem necessitatibus.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              dignissimos ex sequi unde quidem necessitatibus.
+            </p>
             <div class="tect">
-              <P>HTML5 , CSS , JavaScript</P>
+              <p>HTML5 , CSS , JavaScript</p>
             </div>
 
             <div class="live-github">
-              <a href="#"><i class='bx bx-arrow-back'></i> <span>Live Project</span></a>
-              <a href="#"><i class='bx bxl-github' ></i> <span>Github Repository</span></a>
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
             </div>
           </div>
-          
         </div>
 
         <div class="portfolio-box">
           <!-- IMAGE CAROUSEL -->
-           <div class="portfolio-carousel">
+          <div class="portfolio-carousel">
             <div class="img-slide">
-            <div class="img-item">
-              <img src="./assets/images/Portfolio Image/2.png" alt="">
+              <div class="img-item">
+                <img src="./assets/images/Portfolio Image/2.png" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="./assets/images/Portfolio Image/2.png" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="./assets/images/Portfolio Image/2.png" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="./assets/images/Portfolio Image/2.png" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="./assets/images/Portfolio Image/2.png" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="./assets/images/Portfolio Image/2.png" alt="" />
+              </div>
             </div>
-            <div class="img-item">
-              <img src="./assets/images/Portfolio Image/2.png" alt="">
-            </div>
-            <div class="img-item">
-              <img src="./assets/images/Portfolio Image/2.png" alt="">
-            </div>
-            <div class="img-item">
-              <img src="./assets/images/Portfolio Image/2.png" alt="">
-            </div>
-            <div class="img-item">
-              <img src="./assets/images/Portfolio Image/2.png" alt="">
-            </div>
-            <div class="img-item">
-              <img src="./assets/images/Portfolio Image/2.png" alt="">
-            </div>
-           </div>
-           </div>
+          </div>
 
-           <div class="navigation">
-            <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
-           <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
-           </div>
-
+          <div class="navigation">
+            <button class="arrow-left disabled">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="arrow-right">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
         </div>
       </div>
     </section>
     <!--======================== PORTFOLIO SECTION ENDS  ============================== -->
+
+    <!-- =========================TESTIMONIAL SECTION START ================================ -->
+    <section class="testimoanials-section">
+      <h2 class="section-title">Testimonial</h2>
+      <div class="section-content">
+        <div class="slider-container swiper">
+          <div class="slider-wrapper">
+            <ul class="testimonials-list swiper-wrapper">
+              <li class="testimonial swiper-slide">
+                <img
+                  src="./assets/images/Testimonials/1.jpg"
+                  alt="user"
+                  class="user-image"
+                />
+                <h3 class="name">David Johnson</h3>
+                <p class="feedback">
+                  Nurhan delivered a fast, responsive website with clean code
+                  and excellent UX. His communication, precision, and dedication
+                  made the entire web development process smooth and
+                  professional
+                </p>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img
+                  src="./assets/images/Testimonials/2.jpg"
+                  alt="user"
+                  class="user-image"
+                />
+                <h3 class="name">Olivia Martinez</h3>
+                <p class="feedback">
+                  I’m extremely impressed with Nurhan’s web development skills.
+                  He delivered a clean, responsive, and elegant website that
+                  perfectly matches my brand. Highly professional and reliable.
+                </p>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img
+                  src="./assets/images/Testimonials/3.jpg"
+                  alt="user"
+                  class="user-image"
+                />
+                <h3 class="name">Sophia Bennett</h3>
+                <p class="feedback">
+                  Nurhan built a beautiful, user-friendly website with excellent
+                  performance. His design sense, coding quality, and
+                  communication made the project stress-free and enjoyable.
+                </p>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img
+                  src="./assets/images/Testimonials/4.jpg"
+                  alt="user"
+                  class="user-image"
+                />
+                <h3 class="name">Ethan Brooks</h3>
+                <p class="feedback">
+                  Fantastic experience! Nurhan transformed our ideas into a
+                  polished, high-performing website. His creativity, coding
+                  skill, and commitment to deadlines impressed the entire team.
+                </p>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img
+                  src="./assets/images/Testimonials/5.jpg"
+                  alt="user"
+                  class="user-image"
+                />
+                <h3 class="name">Grace Thompson</h3>
+                <p class="feedback">
+                  The website Nurhan built is clean, professional, and perfectly
+                  optimized. His approach is structured, efficient, and highly
+                  skilled. A pleasure to work with.
+                </p>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img
+                  src="./assets/images/Testimonials/6.jpg"
+                  alt="user"
+                  class="user-image"
+                />
+                <h3 class="name">Jonathan Reed</h3>
+                <p class="feedback">
+                  Professional, talented, and highly efficient. Nurhan developed
+                  a visually stunning site with smooth performance and great
+                  functionality. Clear communication throughout the project.
+                </p>
+              </li>
+            </ul>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination swiper-slide-button"></div>
+            <div class="swiper-button-prev swiper-slide-button"></div>
+            <div class="swiper-button-next swiper-slide-button"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================TESTIMONIAL SECTION END ================================ -->
 
     <!-- ======================== CONTACT SECTION START ============================  -->
     <section class="contact">
@@ -646,8 +794,9 @@
 
     <!-- FONT AWESOME -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"></script>
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <!-- custom js -->
     <script src="./assets/sript.js"></script>
-
   </body>
 </html>
