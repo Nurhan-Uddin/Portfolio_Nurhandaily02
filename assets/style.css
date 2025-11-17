@@ -851,37 +851,82 @@ button:hover ~ .cursor-outline {
 
 /* =================== PORTFOIO CSS END   ========================== */
 
-/* =================== TESTIMONIAL SECTION STYLING====================*/
-.testimonial-section {
+/* =================== TESTIMONIAL SECTION STYLING START ====================*/
+.testimoanials-section{
     padding: 50px 0 100px;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
 }
 
-.testimonial-section .testimonial {
-    display: flex;
-    padding: 35px;
+.testimoanials-section .testimonial{
+ display: flex;
+ padding: 35px;
+ text-align: center;
+ flex-direction: column;
+ align-items: center;  
+ justify-content: center; 
+}
+
+.testimoanials-section h2{
     text-align: center;
-    flex-direction: column;
-    align-items: center;
+    font-size: 24px;
+    color: var(--white-color);
+    margin-bottom: 40px;
 }
 
-.testimonial-section .testimonial .user-image {
+.testimoanials-section .testimonial .user-image{
     width: 180px;
-    height: 210px;
+    height: 180px;
     object-fit: cover;
-    margin-bottom: 20px;
-    border-radius: var(--border-redius-circle);
     border-radius: 50%;
-    border: 10px solid #fff;
+    border: 1px solid var(--main-color);
+    margin-bottom: 50px;
 }
 
-
-.testimonial-section .testimonial .name {
+.testimoanials-section .testimonial .name{
     margin-bottom: 16px;
-    font-size: var(--font-size-m);
-
+    font-size: 24px;
 }
 
-.testimonial-section .testimonial .feedback {
-
+.testimoanials-section .testimonial p.feedback{
+    line-height: 25px;
+    font-size: 14px;
 }
+
+.swiper-button-prev,
+ .swiper-button-next
+{
+    color: var(--main-color);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+    color: var(--white-color);
+ }
+
+ .testimoanials-section .slider-wrapper{
+    overflow: hidden;
+    margin: 0 60px 50px ;
+ }
+
+.testimoanials-section .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background: var(--main-color);
+}
+
+@media  screen and (max-width:640px){
+    .testimoanials-section .swiper-button-prev ,
+    .swiper-button-next
+    {
+        display: none;
+    }
+
+    .testimoanials-section .slider-wrapper{
+        margin: 0 0 30px;
+    }
+}
+
+
+
+/* =================== TESTIMONIAL SECTION STYLING ENDS  ====================*/
