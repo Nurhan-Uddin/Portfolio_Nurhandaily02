@@ -1133,6 +1133,7 @@ button:hover ~ .cursor-outline {
   border-color: #00e676;
 }
 
+<<<<<<< HEAD
 /* ================== CURSON CIRCLE ANIMATE E ===================== */ 
 
 
@@ -1271,3 +1272,91 @@ button:hover ~ .cursor-outline {
 
 
 /* =====================BREAKPOINT ENDS  =======================
+=======
+/* ================== CURSON CIRCLE ANIMATE E ===================== */
+
+/* =================== PORTFOIO CSS START ========================== */
+
+
+/* =================== PORTFOIO CSS END   ========================== */
+
+/* =================== TESTIMONIAL SECTION STYLING START ====================*/
+.testimoanials-section{
+    padding: 50px 0 100px;
+    background: var(--second-bg-color);
+}
+
+.testimoanials-section .testimonial{
+ display: flex;
+ padding: 35px;
+ text-align: center;
+ flex-direction: column;
+ align-items: center;  
+ justify-content: center; 
+}
+
+.testimoanials-section h2{
+    text-align: center;
+    font-size: 24px;
+    color: var(--white-color);
+    margin-bottom: 40px;
+}
+
+.testimoanials-section .testimonial .user-image{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+    margin-bottom: 50px;
+}
+
+.testimoanials-section .testimonial .name{
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.testimoanials-section .testimonial p.feedback{
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.swiper-button-prev,
+ .swiper-button-next
+{
+    color: var(--main-color);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+    color: var(--white-color);
+ }
+
+ .testimoanials-section .slider-wrapper{
+    overflow: hidden;
+    margin: 0 60px 50px ;
+ }
+
+.testimoanials-section .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background: var(--main-color);
+}
+
+@media  screen and (max-width:640px){
+    .testimoanials-section .swiper-button-prev ,
+    .swiper-button-next
+    {
+        display: none;
+    }
+
+    .testimoanials-section .slider-wrapper{
+        margin: 0 0 30px;
+    }
+}
+
+
+
+/* =================== TESTIMONIAL SECTION STYLING ENDS  ====================*/
+>>>>>>> a5364a9d87c6ccc2f02f7873c9ce6e895f329cad

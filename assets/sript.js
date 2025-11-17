@@ -84,6 +84,7 @@ resumeDetails[idx].classList.add('active');
 });
 });
 
+<<<<<<< HEAD
 
 // CURSOR POINTOR EFFECT
 const cursorAnimation = document.querySelector(".cursor");
@@ -174,6 +175,8 @@ arrowLeft.addEventListener('click', () => {
 });
 
 // ***SWIPER JS FOR TESTIMONIALS
+=======
+>>>>>>> a5364a9d87c6ccc2f02f7873c9ce6e895f329cad
 const swiper = new Swiper('.slider-wrapper', {
   loop: true,
   grabcursor:true,
@@ -205,5 +208,9 @@ breakpoints: {
   }
 }
 
+<<<<<<< HEAD
 });
 
+=======
+});
+>>>>>>> a5364a9d87c6ccc2f02f7873c9ce6e895f329cad
